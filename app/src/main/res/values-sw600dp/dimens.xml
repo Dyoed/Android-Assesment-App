@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="backdrop_height">210dp</dimen>
+    <dimen name="backdrop_full_height">300dp</dimen>
+    <dimen name="cover_photo_width">130dp</dimen>
+    <dimen name="cover_photo_height">160dp</dimen>
+    <dimen name="rating_left_margin">150dp</dimen>
+</resources>

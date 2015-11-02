@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/backdrop_height"
+
+        >
+
+    <ImageView
+            android:id="@+id/backdrop_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            />
+
+    <include layout="@layout/gradient"/>
+
+    <TextView
+            android:id="@+id/title_tv"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="40dp"
+            style="@style/MovieTitleTextView"
+            android:text="Godfather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/release_date_tv"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="bottom"
+            style="@style/YearReleasedTextView"
+            android:layout_marginBottom="15dp"
+            android:text="1991"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</FrameLayout>
